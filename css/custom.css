@@ -23,6 +23,7 @@ body {
   background: #edd7a9 url("../img/background.jpg") repeat-x fixed center top / cover;
   padding-top: 5px;
   font-size: 14px;
+  color: #3d3d3f;
 }
 body.fluid {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
@@ -240,15 +241,19 @@ body.fluid {
 }
 .news-container .news .content {
   text-align: justify;
+  margin-top: 5px;
+}
+.news-container .news .content a {
+  color: #3d3d3f;
+  text-decoration: underline;
 }
 .news-container .news .image {
   max-width: 164px;
   margin: 0 auto;
 }
 .news-container .news .image img {
-  margin-top: 52px;
+  margin-top: 57px;
   border: 2px solid #3d3d3f;
-
 }
 @media screen and (max-width: 768px){
  .news-container .news .image img {
@@ -363,20 +368,28 @@ body.fluid {
   padding-right: 2px;
   border-radius: 2px;
 }
-.band-container .even .return a {
+.band-container .orange .return a {
   color: #f8b219;
 }
-.band-container .even .return a:hover {
+.band-container .orange .return a:hover {
   color: #f0f0f0;
   background-color: #f8b219;
   text-decoration: none;
 }
-.band-container .odd .return a {
+.band-container .blue .return a {
   color: #09dca5;
 }
-.band-container .odd .return a:hover {
+.band-container .blue .return a:hover {
   color: #f0f0f0;
   background-color: #09dca5;
+  text-decoration: none;
+}
+.band-container .white .return a {
+  color: #f0f0f0;
+}
+.band-container .white .return a:hover {
+  color: #3d3d3f;
+  background-color: #f0f0f0;
   text-decoration: none;
 }
 .band-container .banner {
@@ -391,13 +404,17 @@ body.fluid {
   padding: 0 20px;
   margin-top: 10px;
 }
-.band-container .even .title,
-.band-container .even .link a {
+.band-container .orange .title,
+.band-container .orange .link a {
   color: #f8b219;
 }
-.band-container .odd .title,
-.band-container .odd .link a {
+.band-container .blue .title,
+.band-container .blue .link a {
   color: #09dca5;
+}
+.band-container .white .title,
+.band-container .white .link a {
+  color: #f0f0f0;
 }
 .band-container .name {
   font-size: 35px;
@@ -507,6 +524,9 @@ body.fluid {
 
 .press-container .heading {
   text-align: center;
+}
+.press-container .heading.past {
+  margin-top: 50px;
 }
 .press-container .article {
   margin-top: 35px;
