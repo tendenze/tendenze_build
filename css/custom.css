@@ -121,18 +121,18 @@ body.fluid {
 }
 @media screen and (max-width: 768px) {
   #header .subtitle .info {
-    margin-top: 0px;
+    margin-top: 0;
   }
   #header .subtitle .info.primary {
-    margin-bottom: 7px;
+    margin-bottom: 0;
   }
   #header .subtitle .info.primary li {
     display: block;
   }
   #header .subtitle .info.secondary {
     font-size: 16px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
   }
   #header .subtitle .info li.text {
     margin-bottom: 2px;
@@ -150,6 +150,10 @@ body.fluid {
 @media screen and (max-width: 460px) {
   #header .subtitle .info {
     font-size: 20px;
+  }
+  #header .subtitle .info.secondary {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
