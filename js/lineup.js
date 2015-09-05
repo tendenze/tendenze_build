@@ -23,7 +23,10 @@ function check_placeholders(placeholders) {
 
 var scroll_timeout = null;
 var placeholders = $(".band .image .placeholder");
-window.onload = check_placeholders(placeholders);
+window.onload = function() {
+  trigger_image_loading(placeholders.splice(0, 1)[0]);
+  check_placeholders(placeholders);
+};
 
 function scroll_handler() {
   check_placeholders(placeholders);
