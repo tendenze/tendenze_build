@@ -416,6 +416,7 @@ body.fluid {
 }
 @media screen and (max-width: 340px) {
   #lineup .band .image .name {
+    padding-top: 2px;
     padding-bottom: 3px;
   }
 }
@@ -433,15 +434,13 @@ body.fluid {
 #lineup .image .name.color-2 {
   color: #83b6b1;
 }
-#lineup .image.link,
-#lineup .image img.img-link {
+#lineup .image.link {
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
        -o-transition: all 0.25s ease 0s;
           transition: all 0.25s ease 0s;
 }
-#lineup .image.link:hover,
-#lineup .image img.img-link:hover {
+#lineup .image.link:hover {
   cursor: pointer;
   opacity: 0.7;
   -webkit-transition: all 0.25s ease 0s;
