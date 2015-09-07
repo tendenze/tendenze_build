@@ -319,6 +319,7 @@ body.fluid {
 .festival-container h2 {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 28px;
+  text-align: center;
 }
 .festival-container .org {
   margin-top: 55px;
