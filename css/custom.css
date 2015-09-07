@@ -662,5 +662,6 @@ body.fluid {
   min-height: 500px;
 }
 .photos-container .intro {
+  text-align: center;
   margin-top: 15px;
 }
