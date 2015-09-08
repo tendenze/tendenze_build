@@ -711,6 +711,7 @@ body.fluid {
       -ms-transform: rotate(-5deg);
        -o-transform: rotate(-5deg);
           transform: rotate(-5deg);
+  -webkit-backface-visibility: hidden;
 }
 .photos-container .entry .image.rot-3 {
   -webkit-transform: rotate(3deg);
@@ -718,6 +719,7 @@ body.fluid {
       -ms-transform: rotate(3deg);
        -o-transform: rotate(3deg);
           transform: rotate(3deg);
+  -webkit-backface-visibility: hidden;
 }
 .photos-container .entry .image.rot-m5:hover,
 .photos-container .entry .image.rot-3:hover {
