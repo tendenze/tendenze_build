@@ -738,7 +738,3 @@ body.fluid {
        -o-transform: rotate(0deg);
           transform: rotate(0deg);
 }
-
-.bandcamp-embed {
-  background: url("../img/bands/thumbs/empty.jpg") center top / contain;
-}
