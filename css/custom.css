@@ -464,7 +464,7 @@ body.fluid {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
 }
 .band-container {
-  color: #f0f0f0;
+  color: #c1c0c0;
   font-weight: bold;
 }
 .band-container .return {
@@ -531,13 +531,14 @@ body.fluid {
   padding: 0 30px;
 }
 .band-container .content .info {
-  font-size: 16px;
+  font-size: 14px;
 }
 .band-container .content .info span {
   font-family: big-noodle, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   font-size: 16px;
+  color: #f0f0f0;
 }
 .band-container .title {
   font-family: big-noodle, Arial, sans-serif;
@@ -548,7 +549,7 @@ body.fluid {
   font-size: 35px;
 }
 .band-container .link a {
-  color: #f0f0f0;
+  color: #c1c0c0;
 }
 .band-container .music {
   font-size: 28px;
@@ -663,12 +664,34 @@ body.fluid {
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
 }
 
-.program-container {
+.agenda-container {
   min-height: 500px;
 }
-.program-container .intro {
+.agenda-container .intro {
   text-align: center;
   margin-top: 15px;
+}
+.agenda-container .day {
+  text-align: center;
+  margin-top: 50px;
+}
+.agenda-container .day span {
+  font-family: big-noodle, Arial, sans-serif;
+  font-size: 70px;
+  line-height: 1;
+  padding: 10px 25px;
+  border-radius: 4px;
+  background-color: #3d3d3f;
+  display: inline-block;
+}
+.agenda-container .day.color-0 {
+  color: #f8b219;
+}
+.agenda-container .day.color-1 {
+  color: #f0f0f0;
+}
+.agenda-container .day.color-2 {
+  color: #83b6b1;
 }
 
 .photos-container {
