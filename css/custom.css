@@ -534,10 +534,6 @@ body.fluid {
   font-size: 14px;
 }
 .band-container .content .info span {
-  font-family: big-noodle, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1;
-  font-size: 16px;
   color: #f0f0f0;
 }
 .band-container .title {
@@ -664,34 +660,12 @@ body.fluid {
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
 }
 
-.agenda-container {
+.program-container {
   min-height: 500px;
 }
-.agenda-container .intro {
+.program-container .intro {
   text-align: center;
   margin-top: 15px;
-}
-.agenda-container .day {
-  text-align: center;
-  margin-top: 50px;
-}
-.agenda-container .day span {
-  font-family: big-noodle, Arial, sans-serif;
-  font-size: 70px;
-  line-height: 1;
-  padding: 10px 25px;
-  border-radius: 4px;
-  background-color: #3d3d3f;
-  display: inline-block;
-}
-.agenda-container .day.color-0 {
-  color: #f8b219;
-}
-.agenda-container .day.color-1 {
-  color: #f0f0f0;
-}
-.agenda-container .day.color-2 {
-  color: #83b6b1;
 }
 
 .photos-container {
