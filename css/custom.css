@@ -468,10 +468,11 @@ body.fluid {
   font-weight: bold;
 }
 .band-container .buttons {
-  position: absolute;
+  margin-top: 10px;
+  /*position: absolute;
   z-index: 9;
   top: 7px;
-  left: 10px;
+  left: 10px;*/
 }
 .band-container .return {
   font-family: big-noodle, Arial, sans-serif;
