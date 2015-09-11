@@ -469,10 +469,6 @@ body.fluid {
 }
 .band-container .buttons {
   margin-top: 10px;
-  /*position: absolute;
-  z-index: 9;
-  top: 7px;
-  left: 10px;*/
 }
 .band-container .return {
   font-family: big-noodle, Arial, sans-serif;
@@ -725,15 +721,15 @@ body.fluid {
 .agenda-container .schedule thead th {
   font-family: big-noodle, Arial, sans-serif;
   font-size: 20px;
+  line-height: 1;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .agenda-container .schedule tbody th {
   text-transform: none;
 }
 .agenda-container .schedule th.time {
   width: 60px;
-}
-.agenda-container .schedule th.stage {
-  max-width: 205px;
 }
 .agenda-container .schedule th.stage:nth-child(odd) {
   background-color: #f8b219;
@@ -777,7 +773,7 @@ body.fluid {
   .agenda-container .schedule th.time {
     width: 70px;
   }
-  .agenda-container .schedule tbody th,
+  .agenda-container .schedule th,
   .agenda-container .schedule td {
     height: 43px;
   }
@@ -797,7 +793,7 @@ body.fluid {
   .agenda-container .schedule th.time {
     width: 100px;
   }
-  .agenda-container .schedule tbody th,
+  .agenda-container .schedule th,
   .agenda-container .schedule td {
     height: 30px;
   }
