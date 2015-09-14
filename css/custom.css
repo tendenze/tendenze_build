@@ -20,7 +20,10 @@
 
 /* --- GLOBAL TWEAKS --- */
 body {
-  background: #edd7a9 url("../img/background.jpg") repeat-x fixed center top / cover;
+  background: #edd7a9 url("../img/background.jpg") ;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
   padding-top: 5px;
   font-size: 14px;
   color: #3d3d3f;
@@ -28,6 +31,14 @@ body {
 body.fluid {
   background: #373536 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
   padding-top: 0;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) {
+  body {
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+  }
 }
 
 .main-content .heading {
@@ -305,7 +316,7 @@ body.fluid {
   line-height: 1;
   margin-bottom: 3px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
  .news-container .news .image img {
     margin-top: 0px;
   }
@@ -484,7 +495,7 @@ body.fluid {
 .modal-container .return.first {
   margin-right: 5px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .modal-container .return {
     font-size: 16px;
   }
@@ -611,7 +622,7 @@ body.fluid {
 .expo-container .exhibitor .text {
   margin-top: 5px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .expo-container .exhibitor .name {
     text-align: center;
   }
@@ -661,8 +672,9 @@ body.fluid {
 }
 .extra-container .exhibitor .banner {
   border: 2px solid #3d3d3f;
+  margin-top: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .extra-container .exhibitor .title {
     padding-left: 10px;
     padding-right: 10px;
@@ -905,7 +917,6 @@ body.fluid {
   max-width: 250px;
   margin: 0 auto;
   box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.4);
-  background: #3d3d3f url("../img/galleries/base.jpg") scroll center top / cover;
   position: relative;
   -webkit-transition: all 0.25s ease 0s;
      -moz-transition: all 0.25s ease 0s;
