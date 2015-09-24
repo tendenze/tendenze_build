@@ -18,7 +18,7 @@
   </title>
 
   <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="/css/custom.css" rel="stylesheet" type="text/css" />
-    <link href="/css/lightbox.css" rel="stylesheet" type="text/css" />
+    <link href="/css/swipebox.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -111,13 +111,13 @@
 
     <div class="photos row">
       <div class="col-xs-12 col-sm-6 col-md-4">
-<a data-lightbox="gallery" href="/img/festival/festival-01_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-01.jpg" />
+<a class="swipebox" data-lightbox="gallery" href="/img/festival/festival-01_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-01.jpg" />
 </a>      </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
-<a data-lightbox="gallery" href="/img/festival/festival-02_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-02.jpg" />
+<a class="swipebox" data-lightbox="gallery" href="/img/festival/festival-02_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-02.jpg" />
 </a>      </div>
       <div class="last col-xs-12 col-sm-12 col-md-4">
-<a data-lightbox="gallery" href="/img/festival/festival-03_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-03.jpg" />
+<a class="swipebox" data-lightbox="gallery" href="/img/festival/festival-03_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-03.jpg" />
 </a>      </div>
     </div>
     <h2>TENDENZE FESTIVAL 2015 | XXI EDIZIONE</h2>
@@ -131,7 +131,7 @@ La musica come collante sociale e intergenerazionale, dunque. Il festival come c
 
     <div class="photos row">
       <div class="last col-xs-12 col-sm-12 col-md-12">
-<a data-lightbox="gallery" href="/img/festival/festival-04_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-04.jpg" />
+<a class="swipebox" data-lightbox="gallery" href="/img/festival/festival-04_big.jpg">          <img class="img-responsive" src="/img/festival/thumbs/festival-04.jpg" />
 </a>      </div>
     </div>
     <h2>I NUMERI DEL PASSATO</h2>
@@ -261,7 +261,10 @@ La musica come collante sociale e intergenerazionale, dunque. Il festival come c
     </div>
 
     <script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script><script src="/js/bootstrap.min.js" type="text/javascript"></script><script src="/js/ga.js" type="text/javascript"></script>
-      <script src="/js/lightbox.min.js" type="text/javascript"></script>
+      <script src="/js/jquery.swipebox.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(function(){$(".swipebox").swipebox();});
+  </script>
 
   </body>
 </html>
