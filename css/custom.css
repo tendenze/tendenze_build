@@ -325,11 +325,6 @@ body.fluid {
   margin-top: 5px;
 }
 @media screen and (max-width: 767px){
-  .news-container .news {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 16px;
-  }
   .news-container .news .image img {
     margin-top: 0px;
   }
