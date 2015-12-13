@@ -321,8 +321,13 @@ body.fluid {
   margin-top: 7px;
 }
 @media screen and (max-width: 767px){
+  .news-container .news {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:
+  }
  .news-container .news .image img {
-    margin-top: 0px;
+    margin-top: 15px;
   }
   .news-container .news .content {
     text-align: left;
